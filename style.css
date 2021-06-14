@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./font/Poppins-SemiBold/Poppins-SemiBold.eot');
+    src: url('./font/Poppins-SemiBold/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./font/Poppins-SemiBold/Poppins-SemiBold.woff') format('woff'),
+    url('./font/Poppins-SemiBold/Poppins-SemiBold.woff2') format('woff2'),
+    url('./font/Poppins-SemiBold/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    }
+@font-face {
+font-family: 'Poppins';
+src: url('/font/PoppinsRegular/Poppins-Regular.eot');
+src: url('/font/PoppinsRegular/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+url('/font/PoppinsRegular/Poppins-Regular.woff') format('woff'),
+url('/font/PoppinsRegular/Poppins-Regular.woff2') format('woff2'),
+url('/font/PoppinsRegular/Poppins-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color:blue;
+} */
+img{
+    max-height: 400px;
+    max-width: 440px;
+    width: 100%;
+}
+.image__item{
+    padding: 1.5em;
+    opacity: 0.5;
+
+}
+.main{
+    width: 100%;
+    max-width: 1920px;
+    }
+
+.text_top{
+font-size: 18px;
+letter-spacing: 4px;
+line-height: 1.1;
+color: #303030;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+margin-top: 65px;
+text-align: center;
+text-transform: uppercase;
+
+}    
+
+.text_title{
+font-size: 86px;
+line-height: 1;
+color: #000000;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+text-align: center;
+text-transform: uppercase;
+margin: 0;
+padding-top: 32px;
+padding-bottom: 103px;
+
+}
+@media (max-width: 1024px) {
+    .text_title {
+      font-size: 66px;
+    }
+  }
+  @media (max-width: 780px) {
+    .text_title {
+      font-size: 46px;
+    }
+  }
+
+.image_block{
+    margin: 0 8%;
+    margin-bottom: 8.12em;
+    cursor: pointer;
+
+}
+.slick-next:before {
+    font-size: 96px;
+    color: #ddd;
+    top: -0.3em;
+    right: -0.7em;
+    position: absolute;
+    background:transparent;
+}
+
+.slick-prev:before {
+    font-size: 96px;
+    color: #ddd;
+    left: -0.7em;
+    top: -0.3em;
+    position: absolute;
+    background:transparent;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
